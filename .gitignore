@@ -155,3 +155,31 @@ vite.config.ts.timestamp-*
 .nx/cache
 .nx/workspace-data
 .nx/migrate-runs
+
+# --- MCPDemo2 additions ---
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+.vs/
+.vscode/*
+!.vscode/settings.json
+!.vscode/launch.json
+*.user
+*.suo
+
+# .NET
+bin/
+obj/
+*.nupkg
+TestResults/
+
+# SQLite temp files (db/db.sqlite itself is committed)
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+
+# Claude Code local settings
+.claude/settings.local.json
